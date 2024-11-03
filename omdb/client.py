@@ -1,4 +1,6 @@
 import logging
+import requests
+OMDB_API_URL = "https://www.omdbapi.com/"
 logger = logging.getLogger(__name__)
 
 
